@@ -44,5 +44,16 @@ public class Humains {
         return cri;
     }
    
-   
+   // fonction parler: permet à une personne de parler et enregistrer les log dasn un fichier texte !
+    
+    public void parler(String nom,String phrase){
+        System.out.println( nom + ": " + phrase );
+        
+        
+    }
+    
+    
+    
+    
+    
 }
