@@ -14,14 +14,13 @@ import java.io.BufferedWriter;
 public class Humains {
 
     //Varaible
-   private String premon;
+   final String premon;
    private String surnom;
    private float porte_monnaie;
    private int cote_de_popularité;
    private String cri;
 
-   
-   //Constructeur
+   // constructor
     public Humains(String premon, String surnom, float porte_monnaie, int cote_de_popularité, String cri) {
         this.premon = premon;
         this.surnom = surnom;
@@ -29,7 +28,9 @@ public class Humains {
         this.cote_de_popularité = cote_de_popularité;
         this.cri = cri;
     }
-    
+   
+   
+
     //Getter
     public String getPremon() {
         return premon;
@@ -54,8 +55,8 @@ public class Humains {
     // permet de se presenter suivant une phrase predefini
     public void sePresenter(String phrase, String nom){
         
-    // si cote elever, on met une phrase de beau gosse, sinon phrase normal
-    // si deja bourré, phrase en consequence
+    // si cote elever, on met une phrase de beau gosse, sinon phrase normal?
+    // si deja bourré, phrase en consequence?
     System.out.println(nom + ": "+ "bonjours, je m'appel roger er vous ?");
     System.out.println(nom + ": "+ "salut la compagnie moi c'est ");
     System.out.println(nom + ": "+ "wesh tes qui, Marcel va te def le cul! ");

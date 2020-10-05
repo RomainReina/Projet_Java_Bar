@@ -9,6 +9,24 @@ package projet_java;
  *
  * @author rreina
  */
-public class Client {
+public class Client extends Humains{
+    
+    //Varaible
+    private String boissonFavo;
+    private String boissonFavo2;
+    private int degresAlco;
+    
+    
+    //Fct 
+    public void seFaireOffrirVerre(){
+        
+    }
+    public void sePresenterClient(){}
+            
+    public void offrirTournee(){}
+            
+    public void commander() //Client,Boisson 
+    {}  
+    
     
 }

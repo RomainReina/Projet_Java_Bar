@@ -9,6 +9,12 @@ package projet_java;
  *
  * @author rreina
  */
-public class Client_Homme {
+public class Client_Homme extends Client {
+
+   
+
     
+    
+    //Varaible
+   
 }
