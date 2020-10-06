@@ -14,7 +14,7 @@ import java.io.BufferedWriter;
 public class Humains {
 
     //Varaible
-   final String premon;
+   private String premon;
    private String surnom;
    private float porte_monnaie;
    private int cote_de_popularité;

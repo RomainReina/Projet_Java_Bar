@@ -15,6 +15,13 @@ public class Client extends Humains{
     private String boissonFavo;
     private String boissonFavo2;
     private int degresAlco;
+
+    public Client(String boissonFavo, String boissonFavo2, int degresAlco, String premon, String surnom, float porte_monnaie, int cote_de_popularité, String cri) {
+        super(premon, surnom, porte_monnaie, cote_de_popularité, cri);
+        this.boissonFavo = boissonFavo;
+        this.boissonFavo2 = boissonFavo2;
+        this.degresAlco = degresAlco;
+    }
     
     
     //Fct 
